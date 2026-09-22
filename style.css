@@ -20,7 +20,9 @@
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
 }
 
 ::-webkit-scrollbar-thumb {
@@ -31,6 +33,7 @@
     width: 800px;
     height: 1000px;
     background-color: rgb(255, 255, 255);
+    object-fit: cover;
 }
 
 #fotodeperfil {
@@ -48,6 +51,7 @@
     background-color: rgb(238, 227, 218);
     padding: 20px 50px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #fotodeperfil img,
@@ -61,8 +65,10 @@
 }
 
 #span-seguindo {
-    font-weight: bold;
+
+
     margin-left: 50px;
+
 }
 
 #pill {
@@ -100,12 +106,21 @@ a {
     background-color: rgb(238, 238, 238);
     padding: 10px;
     box-sizing: border-box;
+    
 
     p {
         margin-top: 0;
         text-align: center;
         font-weight: 600;
     }
+}
+
+.destaque img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+
 }
 
 #feed {
@@ -122,10 +137,11 @@ a {
     align-items: center;
     justify-content: center;
 
-    
 
 }
 .fotosfeed img {
         height: 350px;
         width: 260px;
+
     }
+
